@@ -7,6 +7,10 @@ public class HelloWorld {
 		
 		System.out.println("First line...added");
 		System.out.println("Second line...added");
+		
+		boolean result = StringUtil.isNull("hello");
+		
+		System.out.println(result);
 
 
 	}
